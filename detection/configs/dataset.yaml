@@ -1,0 +1,11 @@
+# YOLOv8 dataset configuration for EV battery component detection.
+# Update `path` to the real dataset location before training.
+
+path: data/detector_sample
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: module
+  1: busbar

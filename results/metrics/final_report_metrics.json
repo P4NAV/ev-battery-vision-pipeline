@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "model": "YOLOv8n",
+    "classes": ["module", "busbar"],
+    "precision": 0.840,
+    "recall": 0.880,
+    "mAP50": 0.901,
+    "mAP50_95": 0.715,
+    "latency_ms_per_frame_cpu": 78.9,
+    "fps_cpu": 12.7,
+    "hardware": "Apple M1 CPU"
+  },
+  "classifier": {
+    "model": "ResNet18",
+    "classes": ["bad", "good"],
+    "accuracy": 0.917,
+    "weighted_f1": 0.912,
+    "test_images": 48
+  }
+}
